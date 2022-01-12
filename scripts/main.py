@@ -7,9 +7,12 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-def ogm_chapters(file):
-    with open(file, "r") as f:
-        lines = f.readlines()
+def ogm_chapters(ogm_input, directmode=False):
+    if not directmode:
+        with open(ogm_input, "r") as f:
+            lines = f.readlines()
+    else:
+        lines = ogm_input.splitlines()
 
     chapter_times = []
     chapter_names = []
@@ -37,14 +40,9 @@ def xml_chapters(file):
 
 
 def mkv_chapters(file):
-    with tempfile.NamedTemporaryFile(delete=False) as temp:
-        temp_chapter_file = temp.name
+    ogm_chapter_lines = subprocess.check_output(["mkvextract", file, "chapters", "-s"], universal_newlines=True)
 
-    subprocess.run(["mkvextract", file, "chapters", temp_chapter_file])
-
-    mkv_chapters_list = xml_chapters(temp_chapter_file)
-
-    Path(temp_chapter_file).unlink()
+    mkv_chapters_list = ogm_chapters(ogm_chapter_lines, True)
 
     return mkv_chapters_list
 
