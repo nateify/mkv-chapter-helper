@@ -40,7 +40,7 @@ def xml_chapters(file):
 
 
 def mkv_chapters(file):
-    ogm_chapter_lines = subprocess.check_output(["mkvextract", file, "chapters", "-s"], universal_newlines=True)
+    ogm_chapter_lines = subprocess.check_output(["mkvextract", file, "chapters", "-s"], universal_newlines=True, encoding="utf-8")
 
     mkv_chapters_list = ogm_chapters(ogm_chapter_lines, True)
 
