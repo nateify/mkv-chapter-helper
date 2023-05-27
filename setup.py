@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mkv-chapter-helper",
-    version="0.2",
+    version="0.3",
     author="nateify",
     author_email="nateify@users.noreply.github.com",
     description="Embed chapters into an MKV file with the ability to mix timecodes and chapter names from multiple sources",
