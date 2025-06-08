@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapterInfo xml:lang="eng" version="2" extractor="ChapterGrabber 4.2" client="ChapterGrabber 4.2" confirmations="132" xmlns="http://jvance.com/2008/ChapterGrabber">
+  <title>Sample</title>
+  <ref>
+    <chapterSetId>18</chapterSetId>
+  </ref>
+  <source>
+    <type>Blu-Ray</type>
+    <hash>8d6e6a3c74975e25fde10f09ff59a247</hash>
+    <fps>20</fps>
+    <duration>00:04:44.000000000</duration>
+  </source>
+  <chapters>
+    <chapter time="00:00:00.000" name="Lorem ipsum" />
+    <chapter time="00:01:11.000" name="Dolor sit" />
+    <chapter time="00:02:22.000" name="Amet, consectetur" />
+    <chapter time="00:03:33.000" name="Adipiscing elit" />
+  </chapters>
+  <createdDate>1970-01-01T00:00:00Z</createdDate>
+  <updatedDate>1970-01-01T00:00:00Z</updatedDate>
+</chapterInfo>

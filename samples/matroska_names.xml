@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionUID>16400971998390097422</EditionUID>
+    <ChapterAtom>
+      <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
+      <ChapterUID>11191677009239434260</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>Lorem ipsum</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:01:11.000000000</ChapterTimeStart>
+      <ChapterUID>6894391783161052974</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>Dolor sit</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:02:22.000000000</ChapterTimeStart>
+      <ChapterUID>4739330277429187852</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>Amet, consectetur</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:03:33.000000000</ChapterTimeStart>
+      <ChapterUID>5105943424982118054</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>Adipiscing elit</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+    </ChapterAtom>
+  </EditionEntry>
+</Chapters>
