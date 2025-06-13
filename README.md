@@ -1,7 +1,17 @@
 `mkv-chapter-helper` -  Add/update chapters in an MKV file with the ability to mix timecodes and chapter names from multiple sources 
 
 # Installation
+pip:
+
     pip install mkv-chapter-helper
+
+pipx:
+
+    pipx install mkv-chapter-helper
+
+uv:
+
+    uv tool install mkv-chapter-helper
 
 # Description
 mkv-chapter-helper allows you to choose different sources for correct timecodes and correct names for chapters to embed in an MKV file.

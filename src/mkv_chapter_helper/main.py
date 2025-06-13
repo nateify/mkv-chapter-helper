@@ -105,7 +105,7 @@ def main(args):
         if args.test:
             print("The following chapters would be written:")
 
-            output_dict = dict(zip(chapter_names, chapter_times, strict=False))
+            output_dict = dict(zip(chapter_names, chapter_times))
 
             print(json.dumps(output_dict, indent=2))
         else:

@@ -1,17 +1,43 @@
 [project]
 name = "mkv-chapter-helper"
-version = "1.0"
+version = "1.0.1"
 description = "Embed chapters into an MKV file with the ability to mix timecodes and chapter names from multiple sources."
 readme = "README.md"
 authors = [
     { name = "nateify", email = "nateify@users.noreply.github.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 dependencies = []
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+keywords = [
+    "mkv",
+    "matroska",
+    "chapters",
+    "video",
+    "media",
+    "remux",
+    "metadata",
+    "cli",
+    "automation",
+    "mediainfo",
+    "chaptergrabber",
+    "ogm",
+    "xml",
 ]
 
 [project.scripts]
@@ -22,5 +48,5 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.ruff]
-target-version = "py313"
+target-version = "py38"
 line-length = 120
